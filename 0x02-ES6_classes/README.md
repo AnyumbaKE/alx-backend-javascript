@@ -1,68 +1,81 @@
-0x02. ES6 classes
-OOP
-JavaScript
-ES6
- Weight: 1
- Project will start Apr 10, 2024 6:00 AM, must end by Apr 12, 2024 6:00 AM
- Checker was released at Apr 10, 2024 6:00 PM
- An auto review will be launched at the deadline
+# 0x02. ES6 classes
+<table>
+ <td>OOP</td>
+ <td>JavaScript</td>
+ <td>ES6</td>
+</table>
+<table>
+ <tr>
+  <td>Weight: 1</td>
+ </tr>
+ <tr>
+  <td>Project will start Apr 10, 2024 6:00 AM, must end by Apr 12, 2024 6:00 AM</td>
+ </tr>
+ <tr>
+  <td>Checker was released at Apr 10, 2024 6:00 PM</td>
+ </tr>
+ <tr>
+  <td> An auto review will be launched at the deadline</td>
+ </tr>
+</table>
 
 
-Resources
-Read or watch:
+ 
+ 
+ 
 
-Classes
-Metaprogramming
-Learning Objectives
+
+
+## Resources
+## Read or watch:
+
+- [Classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
+- [Metaprogramming](https://www.keithcirkel.co.uk/metaprogramming-in-es6-symbols/#symbolspecies)
+  
+## Learning Objectives
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
-How to define a Class
-How to add methods to a class
-Why and how to add a static method to a class
-How to extend a class from another
-Metaprogramming and symbols
-Requirements
-All your files will be executed on Ubuntu 18.04 LTS using NodeJS 12.11.x
-Allowed editors: vi, vim, emacs, Visual Studio Code
-All your files should end with a new line
-A README.md file, at the root of the folder of the project, is mandatory
-Your code should use the js extension
-Your code will be tested using Jest and the command npm run test
-Your code will be verified against lint using ESLint
-Your code needs to pass all the tests and lint. You can verify the entire project running npm run full-test
-Setup
-Install NodeJS 12.11.x
+- How to define a Class
+- How to add methods to a class
+- Why and how to add a static method to a class
+- How to extend a class from another
+- Metaprogramming and symbols
+## Requirements
+- All your files will be executed on Ubuntu 18.04 LTS using NodeJS 12.11.x
+- Allowed editors: vi, vim, emacs, Visual Studio Code
+- All your files should end with a new line
+- A README.md file, at the root of the folder of the project, is mandatory
+- Your code should use the js extension
+-Your code will be tested using Jest and the command npm run test
+- Your code will be verified against lint using ESLint
+- Your code needs to pass all the tests and lint. You can verify the entire project running npm run full-test
+## Setup
+## Install NodeJS 12.11.x
 (in your home directory):
-
+```
 curl -sL https://deb.nodesource.com/setup_12.x -o nodesource_setup.sh
 sudo bash nodesource_setup.sh
 sudo apt install nodejs -y
+```
+```
 $ nodejs -v
 v12.11.1
 $ npm -v
 6.11.3
-Install Jest, Babel, and ESLint
+```
+## Install Jest, Babel, and ESLint
 in your project directory, install Jest, Babel and ESList by using the supplied package.json and run npm install.
 
-Configuration files
-Add the files below to your project directory
 
-package.json
-Click to show/hide file contents
-babel.config.js
-Click to show/hide file contents
-.eslintrc.js
-Click to show/hide file contents
-and…
-Don’t forget to run $ npm install when you have the package.json
 
-Tasks
-0. You used to attend a place like this at some point
+## Tasks
+## 0. You used to attend a place like this at some point
 mandatory
 Implement a class named ClassRoom:
 
 Prototype: export default class ClassRoom
 It should accept one attribute named maxStudentsSize (Number) and assigned to _maxStudentsSize
+```
 bob@dylan:~$ cat 0-main.js
 import ClassRoom from "./0-classroom.js";
 
@@ -72,7 +85,8 @@ console.log(room._maxStudentsSize)
 bob@dylan:~$ 
 bob@dylan:~$ npm run dev 0-main.js 
 10
-bob@dylan:~$ 
+bob@dylan:~$
+```
 Repo:
 
 GitHub repository: alx-backend-javascript
