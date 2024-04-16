@@ -1,22 +1,22 @@
-0x03. ES6 data manipulation
-JavaScript
-ES6
+# 0x03. ES6 data manipulation
+<table>
+<td>JavaScript</td>
+<td>ES6</td>
+</table>
  Weight: 1
  Project will start Apr 15, 2024 6:00 AM, must end by Apr 17, 2024 6:00 AM
  Checker was released at Apr 15, 2024 6:00 PM
  An auto review will be launched at the deadline
 
 
-Resources
-Read or watch:
+## Resources
+## Read or watch:
 
-Array
-Typed Array
-Set Data Structure
-Map Data Structure
-WeakMap
-Learning Objectives
-At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
+- Array
+- Typed Array
+- Set Data Structure
+-Map Data Structure
+- WeakMap
 
 How to use map, filter and reduce on arrays
 Typed arrays
@@ -57,8 +57,8 @@ Click to show/hide file contents
 and…
 Don’t forget to run $ npm install when you have the package.json
 
-Tasks
-0. Basic list of objects
+## Tasks
+## 0. Basic list of objects
 mandatory
 Create a function named getListStudents that returns an array of objects.
 
@@ -69,6 +69,7 @@ The array contains the following students in order:
 Guillaume, id: 1, in San Francisco
 James, id: 2, in Columbia
 Serena, id: 5, in San Francisco
+```
 bob@dylan:~$ cat 0-main.js
 import getListStudents from "./0-get_list_students.js";
 
@@ -81,14 +82,15 @@ bob@dylan:~$ npm run dev 0-main.js
   { id: 2, firstName: 'James', location: 'Columbia' },
   { id: 5, firstName: 'Serena', location: 'San Francisco' }
 ]
-bob@dylan:~$ 
+bob@dylan:~$
+```
 Repo:
 
-GitHub repository: alx-backend-javascript
-Directory: 0x03-ES6_data_manipulation
-File: 0-get_list_students.js
+- GitHub repository: alx-backend-javascript
+- Directory: 0x03-ES6_data_manipulation
+- File: 0-get_list_students.js
   
-1. More mapping
+## 1. More mapping
 mandatory
 Create a function getListStudentIds that returns an array of ids from a list of object.
 
